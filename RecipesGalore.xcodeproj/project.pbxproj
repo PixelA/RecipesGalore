@@ -56,15 +56,47 @@
 		A90FDD7A1D010D29006D7B5F /* RecipesGalore */ = {
 			isa = PBXGroup;
 			children = (
+				A978BD0B1D01D73A009D9221 /* Services */,
+				A978BD0A1D01D730009D9221 /* Model */,
+				A978BD091D01D728009D9221 /* View */,
+				A978BD081D01D717009D9221 /* Controller */,
 				A90FDD7B1D010D29006D7B5F /* AppDelegate.swift */,
-				A90FDD7D1D010D29006D7B5F /* ViewController.swift */,
-				A90FDD7F1D010D29006D7B5F /* Main.storyboard */,
 				A90FDD851D010D2A006D7B5F /* Assets.xcassets */,
-				A90FDD871D010D2A006D7B5F /* LaunchScreen.storyboard */,
 				A90FDD8A1D010D2A006D7B5F /* Info.plist */,
 				A90FDD821D010D2A006D7B5F /* RecipesGalore.xcdatamodeld */,
 			);
 			path = RecipesGalore;
+			sourceTree = "<group>";
+		};
+		A978BD081D01D717009D9221 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				A90FDD7D1D010D29006D7B5F /* ViewController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		A978BD091D01D728009D9221 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A90FDD7F1D010D29006D7B5F /* Main.storyboard */,
+				A90FDD871D010D2A006D7B5F /* LaunchScreen.storyboard */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		A978BD0A1D01D730009D9221 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		A978BD0B1D01D73A009D9221 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Services;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -292,6 +324,7 @@
 				A90FDD8F1D010D2A006D7B5F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
