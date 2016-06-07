@@ -16,6 +16,7 @@
 		A978BD0E1D01E891009D9221 /* Recipe+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = A978BD0C1D01E891009D9221 /* Recipe+CoreDataProperties.swift */; };
 		A978BD0F1D01E891009D9221 /* Recipe.swift in Sources */ = {isa = PBXBuildFile; fileRef = A978BD0D1D01E891009D9221 /* Recipe.swift */; };
 		A978BD111D01FFBA009D9221 /* RecipeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A978BD101D01FFBA009D9221 /* RecipeCell.swift */; };
+		A9A9DD161D064C17002CDD16 /* CreateRecipeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9A9DD151D064C17002CDD16 /* CreateRecipeVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		A978BD0C1D01E891009D9221 /* Recipe+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Recipe+CoreDataProperties.swift"; path = "../Recipe+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		A978BD0D1D01E891009D9221 /* Recipe.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Recipe.swift; path = ../Recipe.swift; sourceTree = "<group>"; };
 		A978BD101D01FFBA009D9221 /* RecipeCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RecipeCell.swift; path = ../RecipeCell.swift; sourceTree = "<group>"; };
+		A9A9DD151D064C17002CDD16 /* CreateRecipeVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateRecipeVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +82,7 @@
 			isa = PBXGroup;
 			children = (
 				A90FDD7D1D010D29006D7B5F /* ViewController.swift */,
+				A9A9DD151D064C17002CDD16 /* CreateRecipeVC.swift */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -183,6 +186,7 @@
 				A978BD0E1D01E891009D9221 /* Recipe+CoreDataProperties.swift in Sources */,
 				A90FDD7C1D010D29006D7B5F /* AppDelegate.swift in Sources */,
 				A978BD111D01FFBA009D9221 /* RecipeCell.swift in Sources */,
+				A9A9DD161D064C17002CDD16 /* CreateRecipeVC.swift in Sources */,
 				A90FDD841D010D2A006D7B5F /* RecipesGalore.xcdatamodeld in Sources */,
 				A978BD0F1D01E891009D9221 /* Recipe.swift in Sources */,
 			);
